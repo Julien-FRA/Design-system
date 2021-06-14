@@ -42,7 +42,8 @@ h2 {
 
 .card-rouge,
 .card-noir,
-.card-blanc {
+.card-blanc,
+.card-saumon {
     width: 100px;
     height: 100px;
 }
@@ -51,17 +52,23 @@ h2 {
     background-color: #DB4632;
 }
 
+.card-saumon {
+    background-color: rgb(219, 70, 50, 0.3);
+}
+
 .card-noir {
     background-color: #1B1C1E;
 }
 
 .card-blanc {
     background-color: #FDFDFD;
+    border: 1px solid #1B1C1E;
 }
 
 .rouge,
 .noir,
-.blanc {
+.blanc,
+.saumon {
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
